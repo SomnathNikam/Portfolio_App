@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv.Profile"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:foregroundGravity="center"
+        android:padding="24dp"
+
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/tv.Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="1dp"
+        android:padding="15dp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/tv.Designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:text="Designation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSkills"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="Skills" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="Education" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnExperience"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="Experience" />
+
+        <Button
+            android:id="@+id/btnWorkExperience"
+            android:layout_width="20dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="Work Experience" />
+    </LinearLayout>
+</LinearLayout>
